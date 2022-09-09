@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body {
+    width: 100%;
+    background-size: cover;
+    background-image:url("../img/Panorama_de_SP.jpg");
+    background-color: #cccccc;
+
+}
+
+/* Header */
+
+header {
+    background-color: #7ee4f4;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo > img {
+    width: 150px;
+    height: 130px;
+    margin-top: 25%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 330px;
+}
+
+.nav > a {
+    min-width: 220px; 
+    padding: 20px 20px;
+    border: 1px solid #000000;
+    border-radius: 35px;
+    flex-direction: column;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    flex: auto;
+}
+
+.banner {
+    width: 100%;
+    height: 550px;
+    display: none;
+    margin-bottom: 5%;
+}
+
+
+.banner > img {
+    width: 100%;
+    height: 620px;
+}
+
+
+.curiosidade-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 75px;
+    text-align: center;
+    color: #fefefe;  
+}
+
+
+.curiosidade-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card {
+    width: 350px;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    background: #C4C4C4;
+    border-radius: 35px;
+}
+
+
+.card > img {
+    width: 70%;
+    height: 40%;
+    padding-top: 20px;
+}
+
+.card > h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card > p {
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.video {
+    width: 100%;
+    height: 600px;
+}
+
+.video-title {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: #000000;
+}
+
+.video-frame {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.video-frame > iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 30px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background: #C4C4C4;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.contato-card > img {
+    width: 40px;
+    border-radius: 15px;
+}
+
+.contato-card > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
